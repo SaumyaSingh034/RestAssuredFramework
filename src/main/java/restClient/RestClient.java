@@ -1,5 +1,6 @@
 package restClient;
 
+import constant.APIhttpStatus;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
@@ -236,7 +237,7 @@ public class RestClient {
                 .post(serviceUrl);
         response.then()
                 .assertThat()
-                .statusCode(200);
+                .statusCode(APIhttpStatus.OK_200.getCode());
 
         String accessToken = response.getBody().jsonPath().getString("access_token");
         System.out.println("Access Token : "+accessToken);
