@@ -22,10 +22,11 @@ public class BaseTest {
     protected RestClient restClient;
     protected Properties prop;
     protected Configuration config;
+    String baseURI = "https://gorest.co.in";
 
-    @Parameters({"baseURI"})
+    //@Parameters({"baseURI"})
     @BeforeTest
-    public void setUp(String baseURI) {
+    public void setUp() {
         RestAssured.filters(new AllureRestAssured());
         config = new Configuration();
         prop = config.initProp();

@@ -1,0 +1,1 @@
+{"uuid":"4ba208ac-b93e-4d92-829d-9b101a3514af","name":"RestAssuredFramework","children":["74d0fcc4-8503-457f-b8cd-224d133af780"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1722333996175,"stop":1722333996446}],"afters":[],"start":1722333996167,"stop":1722333998428}
