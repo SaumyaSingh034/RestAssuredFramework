@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d76c761-7fd2-43ff-afbe-384dbbf955c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/constant/APIhttpStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restClient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restClient/RestClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
